@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="treasureisland",                     # This is the name of the package
-    version="1.1.3",                        # The initial release version
+    version="1.1.5",                        # The initial release version
     author="Priyanka Banerjee",
     author_email="banerjee.p1104@gmail.com",                     # Full name of the author
     description="Prediction of Genomic Islands",
@@ -31,6 +31,7 @@ setuptools.setup(
         'pandas',
         'openpyxl',
         'importlib-resources',
-        'numpy>=1.26.3'
+        'numpy>=1.26.3',
+        'tqdm'
    ]
 )
